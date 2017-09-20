@@ -199,7 +199,7 @@ macx {
 # Windows-specific:
 win32 {
   DEFINES += WIN32
-  TARGET = Mapmap
+  TARGET = MapMap
   GST_HOME = $$quote($$(GSTREAMER_1_0_ROOT_X86))
   isEmpty(GST_HOME) {
     message(\"GSTREAMER_1_0_ROOT_X86\" not detected ...)
@@ -207,7 +207,7 @@ win32 {
   else {
     message(\"GSTREAMER_1_0_ROOT_X86\" detected in \"$${GST_HOME}\")
   }
-  #  DESTDIR = ../../Mapmap # Just for packaging
+    DESTDIR = ../../MapMap # Just for packaging
 
   INCLUDEPATH += $${GST_HOME}/lib/gstreamer-1.0/include \
     $${GST_HOME}/include/glib-2.0 \
