@@ -185,11 +185,11 @@ public:
   virtual GLfloat getY() const { return y; }
 
   virtual void setX(GLfloat xPos) {
-      x = xPos;
+      x = 0;//xPos;
     }
 
   virtual void setY(GLfloat yPos) {
-      y = yPos;
+      y = 0;//yPos;
     }
 
   virtual void setPosition(GLfloat xPos, GLfloat yPos) {

@@ -1,4 +1,4 @@
-CONFIG  += qt debug c++11
+CONFIG  += qt release c++11
 
 TEMPLATE = app
 
