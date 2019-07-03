@@ -65,8 +65,8 @@ bool VideoV4l2SrcImpl::loadMovie(const QString& path) {
   gst_caps_unref (videoCaps);
 
   // Retrieve meta-info.
-  _width = 640;
-  _height = 480;
+  _width = 1920;
+  _height = 1080;
   //_duration = ;
   _seekEnabled = false;
 
