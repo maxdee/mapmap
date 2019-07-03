@@ -60,7 +60,7 @@ bool VideoV4l2SrcImpl::loadMovie(const QString& path) {
   }
 
   // Configure video appsink.
-  GstCaps *videoCaps = gst_caps_from_string ("video/x-raw,format=RGBA,width=640,height=480");
+  GstCaps *videoCaps = gst_caps_from_string ("video/x-raw,format=RGBA,width=1920,height=1080");
   g_object_set (_capsfilter0, "caps", videoCaps, NULL);
   gst_caps_unref (videoCaps);
 
